@@ -1,0 +1,7 @@
+<%= link_to "Descarca", download_index_path, method: :post, remote: true, id: "test" %>
+
+<script type="text/javascript">
+  $('#test').on('click', function(e) {
+     $(this).css('color', '#0f0');
+  });
+</script>
